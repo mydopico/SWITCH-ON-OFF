@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+:root {
+    --primary-color: linear-gradient(#74ebd5,25%, #d8f9f3); 
+    --secondary-color: #212121;   
+}
+
+.dark-theme {
+    --primary-color:  linear-gradient(#360033, #0b8793);    
+    --secondary-color: #fff;
+}
+
+.navbar-brand {
+    margin-left: 3%;
+    color: var(--secondary-color);
+    text-decoration: none; 
+    z-index: 3;   
+}
+
+.navbar-brand:hover {
+    color: #145474;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: var(--primary-color);  
+    font-family: sans-serif;
+    position: relative;
+    z-index: 3;
+}
+
+#icon {
+    width: 35px;
+    position: absolute;
+    right: 70px;
+    z-index: 3;
+}
+
+#stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;    
+    z-index: 0;    
+}
+
+.img-box {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;  
+    z-index: 3;   
+}
+
+.img-box .main-img {
+    height: 70%;
+    position: absolute;
+    left: 30%;
+    bottom: 0;     
+}
+
+#topCloud {
+    position: absolute;
+    top: 100px;
+    right: 350px;   
+  }
+  
+  #bottomCloud {
+    position: absolute;
+    left: 330px;
+    bottom: 230px;
+  } 
+
+@media  screen and (max-width: 600px) {
+    
+    .img-box .main-img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+

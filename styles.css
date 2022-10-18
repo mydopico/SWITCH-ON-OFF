@@ -86,7 +86,7 @@ body {
     bottom: 230px;
   } 
 
-@media  screen and (max-width: 480px) {
+@media  screen and (max-width: 500px) {
     
     .img-box .main-img {
         width:100%!important;

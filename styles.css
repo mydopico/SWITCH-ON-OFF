@@ -89,7 +89,8 @@ body {
 @media  screen and (max-width: 600px) {
     
     .img-box .main-img {
-        height: 40%;
+        width: 50%;
+        /* height: 40%; */
         position: absolute;
         bottom: 0;
         left: 0;
